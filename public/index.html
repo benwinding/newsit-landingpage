@@ -124,7 +124,7 @@ function buildSlideMarkup() {
     <slide><img src="/images/screenshot2-ff.png" style="width: 640px; max-width: 100%;"></slide>
     <slide><img src="/images/screenshot1-ff.png" style="width: 640px; max-width: 100%;"></slide>
     <slide>
-      <div class='embed-container' style="width: 640px; max-width: 100%;" >
+      <div class='embed-container'>
         <iframe src='https://www.youtube.com/embed/OPuU-sJEM7M' frameborder='0' allowfullscreen>
         </iframe>
       </div>
@@ -139,7 +139,7 @@ new Vue({
     'carousel': VueCarousel.Carousel,
     'slide': VueCarousel.Slide
   },
-  template: '<div><carousel :navigationEnabled="true" :perPageCustom="[[300, 1]" >' + buildSlideMarkup() + '</carousel></div>'
+  template: '<div><carousel :navigationEnabled="true" :perPageCustom="[[200, 1]]" >' + buildSlideMarkup() + '</carousel></div>'
 });
 </script>
 </html>
