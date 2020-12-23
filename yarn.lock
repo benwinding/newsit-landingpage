@@ -52,10 +52,10 @@ concat-map@0.0.1:
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
-dokku-pages@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/dokku-pages/-/dokku-pages-1.0.0.tgz#1d958a8a9a75a15900e7ec3ffb9ed8a06d939ec8"
-  integrity sha512-Je1vQZQlynMhZtIixiQtNT95h687hVIO0DTtMmvYy+wRNC1S0EeHGDhFrfKA7IMgL+Cah8O04BN4YBGXQh7ZRg==
+dokku-pages@^1.0.2:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/dokku-pages/-/dokku-pages-1.0.3.tgz#3a735dc405c23103e19a9dbcf409653b6b658056"
+  integrity sha512-/o8rxUgQoNiOrg77WosSpLe0wMHJHSiQO0LQ+/Gitgcf0JqIYKU9zPLkZ0N6ZXgs7BlnDuAwq9wEELoTlu9lhg==
   dependencies:
     chalk "^4.1.0"
     commander "5.x"
