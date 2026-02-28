@@ -1,8 +1,0 @@
-{
-  "scripts": {
-    "deploy": "yarn dokku-pages deploy -g dokku@benwinding.com:newsit -d public/ --minimal"
-  },
-  "dependencies": {
-    "dokku-pages": "^1.0.12"
-  }
-}
